@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_dbt_booking
+    database: dbt_catalog_project
+    schema: raw_dbt_booking 
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_customer
+      - name: dim_date
+      - name: dim_sstore
+      - name: dim_product
+      

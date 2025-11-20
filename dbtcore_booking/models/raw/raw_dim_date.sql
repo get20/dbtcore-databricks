@@ -1,0 +1,3 @@
+SELECT
+*
+FROM dbt_catalog_project.raw_dbt_booking.dim_date
