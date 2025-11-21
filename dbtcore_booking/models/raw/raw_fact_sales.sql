@@ -1,3 +1,3 @@
 SELECT
 *
-FROM dbt_catalog_project.raw_dbt_booking.fact_returns
+FROM dbt_catalog_project.booking.fact_returns

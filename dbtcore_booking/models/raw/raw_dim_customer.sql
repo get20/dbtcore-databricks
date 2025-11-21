@@ -1,3 +1,3 @@
 SELECT
 *
-FROM dbt_catalog_project.raw_dbt_booking.dim_customer
+FROM dbt_catalog_project.booking.dim_customer

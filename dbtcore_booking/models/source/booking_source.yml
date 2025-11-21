@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: raw_dbt_booking
+  - name: booking
     database: dbt_catalog_project
-    schema: raw_dbt_booking 
+    schema: booking 
     tables:
       - name: fact_sales
       - name: fact_returns

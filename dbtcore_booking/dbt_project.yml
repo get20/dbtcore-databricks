@@ -31,6 +31,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbtcore_booking:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    booking:
+      raw:
+        +materialized: table
+        +schema: raw
+      intermediate:
+        +materialized: table
+        +schema: intermediate
+      mart:
+        +materialized: table
+        +schema: mart
